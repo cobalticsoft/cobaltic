@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cobaltic – Politique de Confidentialité</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f5f5f5; color: #1a1a1a; line-height: 1.7; }
+    header { background: #2563eb; color: #fff; padding: 2rem 1.5rem; text-align: center; }
+    header h1 { font-size: 1.8rem; font-weight: 700; }
+    header p  { margin-top: .4rem; opacity: .85; font-size: .95rem; }
+    nav { background: #1d4ed8; display: flex; justify-content: center; gap: 1rem; padding: .5rem 1rem; flex-wrap: wrap; }
+    nav a { color: #bfdbfe; text-decoration: none; font-size: .85rem; padding: .25rem .5rem; border-radius: 4px; transition: background .2s; }
+    nav a:hover { background: rgba(255,255,255,.15); color: #fff; }
+    nav a.active { color: #fff; font-weight: 600; }
+    main { max-width: 800px; margin: 2rem auto; background: #fff; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,.08); padding: 2.5rem 2rem; }
+    .meta { color: #6b7280; font-size: .9rem; margin-bottom: 2rem; }
+    h2 { font-size: 1.1rem; color: #1e40af; margin: 2rem 0 .6rem; font-weight: 600; }
+    h2:first-of-type { margin-top: 0; }
+    p { margin-bottom: .75rem; }
+    ul { margin: .5rem 0 .75rem 1.5rem; }
+    li { margin-bottom: .3rem; }
+    hr { border: none; border-top: 1px solid #e5e7eb; margin: 1.5rem 0; }
+    .badge { display: inline-block; background: #dcfce7; color: #166534; font-size: .8rem; font-weight: 600; padding: .2rem .7rem; border-radius: 20px; margin-bottom: 1.5rem; }
+    footer { text-align: center; padding: 2rem 1rem; color: #6b7280; font-size: .85rem; }
+    @media (max-width: 600px) { main { margin: 1rem; padding: 1.5rem 1rem; } }
+      nav a.home-link { color: #fff; font-weight: 600; border: 1px solid rgba(255,255,255,.45); border-radius: 4px; }
+    nav a.home-link:hover { background: rgba(255,255,255,.25); }
+  </style>
+</head>
+<body>
+<header><h1>Cobaltic</h1><p>Politique de Confidentialité</p></header>
+<nav>
+  <a href="../index.html#fr" class="home-link">← Accueil</a>
+  <a href="hu.html">Magyar</a><a href="en.html">English</a><a href="de.html">Deutsch</a>
+  <a href="es.html">Español</a><a href="fr.html" class="active">Français</a><a href="nl.html">Nederlands</a>
+</nav>
+<main>
+  <span class="badge">Application 100% hors ligne — Aucune collecte de données</span>
+  <p class="meta">Dernière mise à jour : 2026-03-31</p>
+
+  <h2>1. Introduction et Responsable du Traitement</h2>
+  <p><strong>ITM Sys-Technology Kft.</strong> (ci-après « Développeur ») s'engage à protéger les données des utilisateurs. Cette politique de confidentialité explique en détail le fonctionnement de l'app Cobaltic, la gestion des données et vos droits. L'app est entièrement hors ligne et fonctionne sans accès internet.</p>
+  <p><strong>Responsable du traitement (RGPD Art. 13) :</strong></p>
+  <ul>
+    <li><strong>Raison sociale :</strong> ITM Sys-Technology Kft.</li>
+    <li><strong>Siège social :</strong> Kossuth Lajos utca 73., 3128 Vizslás, Hongrie</li>
+    <li><strong>Numéro d'immatriculation :</strong> 12-09-012058</li>
+    <li><strong>Numéro de TVA :</strong> HU32009644</li>
+    <li><strong>E-mail :</strong> <a href="mailto:cobalticsoft@gmail.com">cobalticsoft@gmail.com</a></li>
+  </ul><hr>
+
+  <h2>2. Collecte de données</h2>
+  <p>L'app <strong>ne collecte PAS de données personnelles</strong> et <strong>n'a PAS accès à internet</strong>. Toutes les données sont stockées exclusivement sur votre appareil et ne sont jamais transmises à des serveurs externes, services cloud ou tiers.</p><hr>
+
+  <h2>3. Données stockées</h2>
+  <p>L'app stocke les données suivantes exclusivement sur votre appareil :</p>
+  <ul>
+    <li>Transactions financières et postes</li>
+    <li>Comptes, soldes et taux de change</li>
+    <li>Catégories et budgets</li>
+    <li>Informations de garantie</li>
+    <li>Rappels et règles de récurrence</li>
+    <li>Listes de courses, articles et historique d'achats</li>
+    <li>Relevés de compteurs et historique des prix</li>
+    <li>Modèles OCR (patterns de reconnaissance de reçus)</li>
+    <li>Paramètres de l'app et thèmes</li>
+  </ul><hr>
+
+  <h2>4. Sécurité des données</h2>
+  <p>Toutes les données sont stockées chiffrées (AES-256) sur l'appareil avec SQLCipher. L'authentification biométrique (empreinte digitale, reconnaissance faciale) fonctionne exclusivement via l'API Biometric d'Android – l'app n'accède jamais aux données biométriques et ne les stocke pas. L'app peut également être protégée optionnellement par un PIN.</p><hr>
+
+  <h2>5. Caméra et galerie</h2>
+  <p>L'app demande l'accès à la caméra pour photographier les reçus et factures. L'utilisateur peut également importer une image depuis la galerie au lieu d'utiliser la caméra. Les photos ne sont <strong>PAS stockées de façon permanente</strong> – elles sont utilisées uniquement pour l'extraction de texte (OCR) et sont immédiatement supprimées de la mémoire. Aucune image n'est envoyée à un serveur.</p><hr>
+
+  <h2>6. Partage des données</h2>
+  <p>L'app <strong>ne partage PAS de données avec des tiers</strong>. Il n'y a pas de SDK publicitaire, de système d'analytics, de rapport de pannes ou de tout autre composant collectant des données dans l'app.</p><hr>
+
+  <h2>7. Suppression des données</h2>
+  <p>Les enregistrements individuels (transactions, comptes, listes, etc.) peuvent être supprimés manuellement dans l'app. Pour supprimer toutes les données, désinstallez l'app – toutes les données locales sont définitivement supprimées lors de la désinstallation. Les fichiers exportés doivent être supprimés manuellement par l'utilisateur depuis l'appareil.</p><hr>
+
+  <h2>8. Données exportées</h2>
+  <p>L'application permet d'exporter les données sous forme de tableur XLSX (.xlsx) et de rapport PDF (.pdf), ainsi que de créer et restaurer une sauvegarde binaire chiffrée (.scb). Un modèle d'importation XLSX est également disponible pour l'importation en masse de transactions. Les fichiers exportés sont enregistrés sur l'appareil — l'utilisateur est entièrement responsable de leur contenu et de leur conservation sécurisée.</p><hr>
+
+  <h2>9. Modifications</h2>
+  <p>En cas de modification de la politique de confidentialité, les utilisateurs seront informés via une mise à jour de l'app. La version actuelle de cette politique est toujours disponible dans l'app.</p><hr>
+
+  <h2>10. Contact</h2>
+  <p>Pour toute question sur le traitement des données, contactez le Responsable du Traitement :</p>
+  <ul>
+    <li><strong>ITM Sys-Technology Kft.</strong></li>
+    <li>Kossuth Lajos utca 73., 3128 Vizslás, Hongrie</li>
+    <li>E-mail : <a href="mailto:cobalticsoft@gmail.com">cobalticsoft@gmail.com</a></li>
+  </ul><hr>
+
+  <h2>11. Autorisations requises</h2>
+  <p>L'app utilise les autorisations système suivantes :</p>
+  <ul>
+    <li><strong>CAMERA</strong> – Pour photographier les reçus et factures</li>
+    <li><strong>READ_MEDIA_IMAGES</strong> – Pour importer des images depuis la galerie</li>
+    <li><strong>POST_NOTIFICATIONS</strong> – Pour les notifications locales de rappels</li>
+    <li><strong>SCHEDULE_EXACT_ALARM</strong> – Pour les alarmes à heure précise</li>
+    <li><strong>RECEIVE_BOOT_COMPLETED</strong> – Pour reprogrammer les rappels après redémarrage</li>
+    <li><strong>VIBRATE</strong> – Pour la vibration des notifications</li>
+    <li><strong>USE_BIOMETRIC</strong> – Pour la protection biométrique de connexion</li>
+  </ul>
+  <p>L'app <strong>ne demande PAS</strong> d'autorisations réseau, localisation, contacts ou microphone.</p><hr>
+
+  <h2>12. Notifications locales</h2>
+  <p>L'application utilise l'AlarmManager d'Android pour envoyer des notifications locales planifiées avant l'échéance des rappels. Les notifications apparaissent sur l'écran de verrouillage et sous forme de notifications flottantes (heads-up) — sans internet, entièrement sur l'appareil. Le contenu des notifications <strong>n'est JAMAIS envoyé à des serveurs</strong>.</p>
+  <p>Sur Android 13 et supérieur, l'application demande l'autorisation de notifications (POST_NOTIFICATIONS) au premier lancement. Cette autorisation peut être révoquée à tout moment dans les paramètres système. Après un redémarrage de l'appareil, les rappels sont automatiquement reprogrammés.</p><hr>
+
+  <h2>13. Reconnaissance de texte ML Kit</h2>
+  <p>Pour le scan de reçus, l'app utilise Google ML Kit Text Recognition v2, qui fonctionne entièrement sur l'appareil sans accès internet. Le texte reconnu <strong>n'est PAS envoyé aux serveurs Google</strong> ou à un service externe. La bibliothèque ML Kit ne collecte pas de données utilisateur.</p><hr>
+
+  <h2>14. Sauvegarde Android</h2>
+  <p>L'app désactive la fonction de sauvegarde automatique dans le cloud d'Android, de sorte que le contenu de la base de données <strong>n'est PAS automatiquement synchronisé</strong> avec Google Drive ou tout autre service cloud. La sauvegarde n'est possible que via la fonction d'export intégrée à l'app, dont le résultat est géré par l'utilisateur.</p><hr>
+
+  <h2>15. RGPD – Vos droits</h2>
+  <p>En vertu du Règlement Général sur la Protection des Données (RGPD) de l'UE, vous disposez des droits suivants :</p>
+  <ul>
+    <li><strong>Accès</strong> – Vos données peuvent être consultées à tout moment dans l'app</li>
+    <li><strong>Rectification</strong> – Vos données peuvent être modifiées directement</li>
+    <li><strong>Effacement</strong> – Vos données peuvent être supprimées dans l'app ou par désinstallation</li>
+    <li><strong>Portabilité</strong> – Vos données peuvent être exportées en XLSX (.xlsx) et PDF (.pdf), ou sous forme de sauvegarde binaire chiffrée (.scb)</li>
+    <li><strong>Opposition</strong> – Non applicable, car il n'y a pas de sous-traitant tiers</li>
+  </ul>
+  <p>Comme toutes les données sont stockées exclusivement sur votre appareil, vous avez le contrôle total de vos propres données.</p><hr>
+
+  <h2>16. Confidentialité des enfants</h2>
+  <p>L'app n'est pas destinée aux enfants de moins de 13 ans. Étant donné que l'app ne collecte ni ne transmet de données personnelles, aucun problème de confidentialité ne se pose concernant les enfants.</p><hr>
+
+  <h2>17. Conservation des données</h2>
+  <p>Les données restent sur votre appareil jusqu'à la désinstallation de l'app. Il n'y a pas d'expiration automatique des données ni de période de suppression obligatoire. L'utilisateur décide quand supprimer des enregistrements individuels ou l'app entière.</p><hr>
+
+  <h2>18. Limitation de responsabilité</h2>
+  <p>Le développeur de l'app n'est pas responsable de l'accès non autorisé aux fichiers exportés, de la perte de données résultant de la perte ou du vol de l'appareil, ou de la fuite potentielle de données due aux vulnérabilités de sécurité du système d'exploitation Android. L'app applique les meilleures pratiques du secteur pour la protection des données.</p>
+</main>
+<footer>&copy; 2026 ITM Sys-Technology Kft. Tous droits réservés.</footer>
+</body>
+</html>
