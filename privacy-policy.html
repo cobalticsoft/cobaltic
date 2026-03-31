@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adatvédelmi Nyilatkozat – Cobaltic</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+        h1 { color: #1a73e8; }
+        h2 { color: #444; margin-top: 30px; }
+        ul { line-height: 1.8; }
+    </style>
+</head>
+<body>
+    <h1>Adatvédelmi Nyilatkozat – Cobaltic</h1>
+    <p><strong>Hatályos:</strong> 2026. március 31-től<br>
+    <strong>Fejlesztő:</strong> ITM Sys-technology Kft<br>
+    <strong>Kapcsolat:</strong> <a href="mailto:cobalticsoft@gmail.com">cobalticsoft@gmail.com</a></p>
+
+    <h2>1. Bevezetés</h2>
+    <p>A Cobaltic alkalmazás fejlesztője, az ITM Sys-technology Kft elkötelezett a felhasználók adatainak védelme iránt. Az alkalmazás teljes mértékben offline, internet-hozzáférés nélkül működik.</p>
+
+    <h2>2. Adatgyűjtés</h2>
+    <p>Az alkalmazás <strong>NEM gyűjt személyes adatokat</strong> és NEM rendelkezik internet-hozzáféréssel. Minden adat kizárólag az Ön eszközén kerül tárolásra.</p>
+
+    <h2>3. Tárolt adatok</h2>
+    <p>Az alkalmazás az alábbi adatokat tárolja kizárólag az Ön eszközén:</p>
+    <ul>
+        <li>Pénzügyi tranzakciók és tételek</li>
+        <li>Számlák, egyenlegek és árfolyamadatok</li>
+        <li>Kategóriák és költségvetések</li>
+        <li>Garanciainformációk</li>
+        <li>Emlékeztetők és ismétlődési szabályok</li>
+        <li>Bevásárló listák és vásárlási előzmények</li>
+        <li>Közmű mérőállások és egységár-előzmények</li>
+        <li>OCR sablonok (blokk-felismerési minták)</li>
+        <li>Alkalmazás-beállítások és témák</li>
+    </ul>
+
+    <h2>4. Adatbiztonság</h2>
+    <p>Az összes adat az eszközön titkosítva (AES-256) kerül tárolásra a SQLCipher könyvtár segítségével. A biometrikus azonosítás kizárólag az Android Biometric API-ján keresztül működik – az alkalmazás biometrikus adatokhoz soha nem fér hozzá.</p>
+
+    <h2>5. Kamera és galéria</h2>
+    <p>Az alkalmazás kamera-hozzáférést kér blokkok és számlák fényképezéséhez. A fényképek NEM kerülnek tartósan tárolásra – kizárólag OCR célra szolgálnak, majd azonnal törlődnek a memóriából.</p>
+
+    <h2>6. Adatok megosztása</h2>
+    <p>Az alkalmazás <strong>NEM oszt meg adatokat harmadik felekkel.</strong> Nincs hirdetési SDK, analytics rendszer, crash reporting vagy egyéb adatgyűjtő komponens.</p>
+
+    <h2>7. Adatok törlése</h2>
+    <p>Az egyes adatok manuálisan törölhetők az alkalmazáson belül. Az összes adat törléséhez törölje az alkalmazást – az eltávolítással minden helyi adat véglegesen törlődik.</p>
+
+    <h2>8. Exportált adatok</h2>
+    <p>Az alkalmazás lehetőséget biztosít adatok exportálására XLSX, PDF formátumban, valamint titkosított bináris mentés (.scb) készítésére. Az exportált fájlokért a felhasználó teljes felelősséget vállal.</p>
+
+    <h2>9. Változtatások</h2>
+    <p>Az adatvédelmi nyilatkozat megváltoztatása esetén az alkalmazás frissítésével tájékoztatjuk a felhasználókat.</p>
+
+    <h2>10. Kapcsolat</h2>
+    <p>📧 <a href="mailto:cobalticsoft@gmail.com">cobalticsoft@gmail.com</a></p>
+
+    <h2>11. Szükséges engedélyek</h2>
+    <ul>
+        <li><strong>KAMERA</strong> – Blokkok és számlák fényképezéséhez</li>
+        <li><strong>READ_MEDIA_IMAGES</strong> – Galériából történő képimporthoz</li>
+        <li><strong>POST_NOTIFICATIONS</strong> – Helyi emlékeztető értesítésekhez</li>
+        <li><strong>SCHEDULE_EXACT_ALARM</strong> – Pontos időzítésű riasztásokhoz</li>
+        <li><strong>RECEIVE_BOOT_COMPLETED</strong> – Emlékeztetők újraütemezéséhez</li>
+        <li><strong>VIBRATE</strong> – Értesítési rezgéshez</li>
+        <li><strong>USE_BIOMETRIC</strong> – Biometrikus belépési védelemhez</li>
+    </ul>
+    <p>Az alkalmazás <strong>NEM kér</strong> hálózati, helymeghatározási, névjegy- vagy mikrofon-engedélyt.</p>
+
+    <h2>12. Helyi értesítések</h2>
+    <p>Az alkalmazás az Android AlarmManager szolgáltatását használva időzített, helyi értesítéseket küld. Az értesítések internet-kapcsolat nélkül, kizárólag eszközön belül működnek.</p>
+
+    <h2>13. ML Kit szövegfelismerő</h2>
+    <p>A blokk-beolvasáshoz az alkalmazás a Google ML Kit Text Recognition v2 könyvtárat használja, amely teljes egészében az eszközön működik. A felismert szöveg NEM kerül Google szervereire.</p>
+
+    <h2>14. Android biztonsági mentés</h2>
+    <p>Az alkalmazás letiltja az Android automatikus felhőalapú biztonsági mentési funkcióját – az adatbázis NEM szinkronizálódik Google Drive-ra.</p>
+
+    <h2>15. GDPR – Az Ön jogai</h2>
+    <ul>
+        <li><strong>Hozzáférés</strong> – Adatai az alkalmazásban bármikor megtekinthetők</li>
+        <li><strong>Helyesbítés</strong> – Adatai közvetlenül szerkeszthetők</li>
+        <li><strong>Törlés</strong> – Adatai törölhetők az app eltávolításával</li>
+        <li><strong>Adathordozhatóság</strong> – Adatai XLSX és PDF formátumban exportálhatók</li>
+        <li><strong>Tiltakozás</strong> – Nem releváns, mivel nincs harmadik fél adatfeldolgozó</li>
+    </ul>
+
+    <h2>16. Gyermekek adatvédelme</h2>
+    <p>Az alkalmazás nem irányul 13 év alatti gyermekekhez. Mivel semmilyen személyes adatot nem gyűjt, gyermekek adatvédelmével kapcsolatos aggályok nem merülhetnek fel.</p>
+
+    <h2>17. Adatmegőrzési időszak</h2>
+    <p>Az adatok az alkalmazás eltávolításáig az Ön eszközén maradnak. Nincs automatikus adatlejárat.</p>
+
+    <h2>18. Felelősség korlátozása</h2>
+    <p>Az alkalmazás fejlesztője nem vállal felelősséget az exportált fájlok illetéktelen hozzáférése, eszköz elvesztéséből eredő adatvesztés, illetve az Android operációs rendszer biztonsági réseiből fakadó adatszivárgás esetén.</p>
+
+    <hr>
+    <p><em>ITM Sys-technology Kft | Vizslás, Magyarország | cobalticsoft@gmail.com</em></p>
+    <p><a href="index.html">← Vissza a főoldalra</a></p>
+</body>
+</html>
