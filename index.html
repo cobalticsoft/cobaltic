@@ -379,6 +379,13 @@
     });
   }
 
+  // Inject emoji icons before h3 titles in feature cards (same order across all language sections)
+  var cardEmojis = ['🧾','💰','🛒','🔔','📷','📊','📤','⚡'];
+  document.querySelectorAll('.features .feature-card').forEach(function(card, i) {
+    var h3 = card.querySelector('h3');
+    if (h3) h3.textContent = cardEmojis[i % cardEmojis.length] + ' ' + h3.textContent;
+  });
+
   // Init on page load
   setLang(detectLang());
 </script>
